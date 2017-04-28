@@ -6,7 +6,9 @@ How to use:
 2. Ensure the correct permissions are set for each file within the 'monitor' folder
 3. Change FILE_PATH and IGNORE_PATH to whatever directory you would like to monitor/ignore
 4. Change the email credentials on lines 98-106 in 'detectMod.py'
-5. Add to cron tab for desired run time.
+5. Change the email credentials in 'sendErrors.py'
+6. Create files 'fileinfo.txt', 'errors.txt', and 'modified.txt' in the monitor directory
+7. Add to cron tab for desired run time.
 
 For example: 
 
