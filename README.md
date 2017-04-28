@@ -9,6 +9,7 @@ How to use:
 5. Add to cron tab for desired run time.
 
 For example: 
+
 */15 * * * * /monitor/detectMod.py 2>> /monitor/errors.txt
 
 */20 * * * * /monitor/sendErrors.py
